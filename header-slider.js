@@ -115,6 +115,6 @@ document.write(listing);
 <!-- #### Invoking the Callback Function #### --> 
 document.write("<script src='"+ListBlogLink+"/feeds/posts/default?alt=json-in-script&callback=mbtslide'></"+"script>"); 
 </script> 
-
-</ul></div>]]>
+]]>
 </h:outputScript>
+</ul></div>
