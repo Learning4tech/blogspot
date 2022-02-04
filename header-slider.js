@@ -1,4 +1,6 @@
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js' type='text/javascript'></script> 
+<h:outputScript>
+    <![CDATA[
+      <script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js' type='text/javascript'></script> 
 <link href='https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css' rel='stylesheet'/> 
 <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'/> 
 <link href='https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.1/flexslider.min.css' rel='stylesheet' type='text/css'/> 
@@ -113,4 +115,6 @@ document.write(listing);
 <!-- #### Invoking the Callback Function #### --> 
 document.write("<script src='"+ListBlogLink+"/feeds/posts/default?alt=json-in-script&callback=mbtslide'></"+"script>"); 
 </script> 
-</ul></div>
+
+</ul></div>]]>
+</h:outputScript>
